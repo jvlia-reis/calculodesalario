@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body {
+    background-color: #ececec;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(42, 42, 136);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(27, 27, 90);
+}
+
+
+input {
+    width: 200px;
+    height: 25px;
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-left: 20px;
+    text-align: center;
+}
+    .separador {
+    width: 250px;
+    height: 500px;
+    background-color: rgb(74, 74, 254);
+    margin-top: -15px;
+    margin-left: -15px;
+    padding: 15px;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.salarioTotal {
+    margin-top: -150px;
+    margin-left: 300px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: rgb(42, 42, 136);
+}
+
+span {
+    margin-left: 100px;
+}
